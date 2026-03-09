@@ -32,6 +32,7 @@ const About = () => {
 
 
     return (
+            // hi avani
         <div className="flex font-montserrat items-start justify-center  w-full">
             <div className="w-full bg-white rounded-2xl shadow-sm border border-gray-200 p-8 mb-20">
 

@@ -43,11 +43,7 @@ const BannerList = () => {
     const currentItems = banners.slice(indexOfFirstItem, indexOfLastItem);
 
     return (
-        /* 
-           1. h-[calc(100vh-140px)]: Screen height se header minus karke fix kar diya.
-           2. flex flex-col: Elements ko stack karne ke liye.
-           3. overflow-hidden: Page scroll ko rokne ke liye.
-        */
+       
         <div className="bg-white font-montserrat rounded-lg px-6 shadow-sm border border-gray-100 flex flex-col h-[calc(100vh-140px)] overflow-hidden m-2">
 
             {/* Table Header (Static) */}
